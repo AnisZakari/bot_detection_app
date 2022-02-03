@@ -1,5 +1,8 @@
 # Bot_Detection
 
+# Machine Learning Methodology | Insights from the Dataset | Ideas to enhance the model
+Please see the notebook
+
 # Usage
 Recommended python version: `python3.7`  
 To run this project see the following steps:
