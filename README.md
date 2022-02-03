@@ -10,10 +10,10 @@ then:
 `conda activate bot_detection`
 
 # Clone repo:  
-`git clone https://github.com/AnisZakari/Bot_Detection.git`
+`git clone https://github.com/AnisZakari/bot_detection_app.git`
 
 # Accessing the folder:  
-`cd Bot_Detection`  
+`cd bot_detection_app`  
 
 # Install Requirements:
 `pip install -r requirements.txt`
@@ -21,7 +21,7 @@ then:
 
 # Make predictions
 You can make predictions quickly with the following command:  
-` python3 predict.py --inputcsv data/fake_users_test.csv`
+`python3 predict.py --inputcsv data/fake_users_test.csv`
 
 - The default behaviour is to use the model `RandomForestModel.sav` which is in the model folder.
 - If no output path is specified the prediction file will be saved in the output folder with the same name as given in input

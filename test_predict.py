@@ -13,17 +13,17 @@ model =joblib.load(path_to_model)
 @pytest.fixture
 def input_data():
 	input_data = [
-				["03E7EE785DT", "click_carrousel", "Phone"],
-				["F0F3098683T", "click_ad", "Leisure"],
-				["5064A38F0DT", "click_carrousel", "Phone"],
-				["5C8E90A354T", "click_carrousel", "Motor"],
-				["5C8E90A354T", "send_sms", "Motor"],
-				["DC1F29D286T", "send_sms", "Motor"],
-				["2DA8AAA602T", "send_email", "Phone"],
-				["03E7EE785DT", "click_carrousel", "Phone"],
-				["F866660C47T", "send_email", "Real_State"],
-				["D2E47FF774T", "click_carrousel", "Phone"],
-				["03E7EE785DT", "send_email", "Motor"]
+						["03E7EE785DT", "click_carrousel", "Phone"],
+						["F0F3098683T", "click_ad", "Leisure"],
+						["5064A38F0DT", "click_carrousel", "Phone"],
+						["5C8E90A354T", "click_carrousel", "Motor"],
+						["5C8E90A354T", "send_sms", "Motor"],
+						["DC1F29D286T", "send_sms", "Motor"],
+						["2DA8AAA602T", "send_email", "Phone"],
+						["03E7EE785DT", "click_carrousel", "Phone"],
+						["F866660C47T", "send_email", "Real_State"],
+						["D2E47FF774T", "click_carrousel", "Phone"],
+						["03E7EE785DT", "send_email", "Motor"]
 			]
 	return pd.DataFrame(input_data, columns = ["UserId", "Event", "Category"])
 
